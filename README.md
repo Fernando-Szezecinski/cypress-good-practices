@@ -34,9 +34,15 @@ of anchor tags with target="_blank" is to open a new tab. Therefore, those kind 
 [Good practice] By using Cypress, one possible way to avoid browser testing is by just checking if the property href of the anchor tag contains the expected address.
 
 Examples can be found on:
-1)
-2)
+1) https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample1.spec.js
+2) https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample2.spec.js
 
 Additionally, this project also contains:
 * An example on how to make use of Cypress intercept method for mocking backend results
 This example can be found on: ...
+
+```diff
+- This is a red colored line
++ This is a green colored line
+@@ This is a purple colored line @@
+```
