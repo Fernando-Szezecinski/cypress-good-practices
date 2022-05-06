@@ -1,3 +1,9 @@
+# Color Test Document
+
+<style>H1{color:Blue;}</style>
+<style>H2{color:DarkOrange;}</style>
+<style>p{color:Black;}</style>
+
 # cypress-good-practices
 This project contains a few examples which make use of known good practices for testing automation. 
 Additionaly, the content found here it's entirely based on course: https://www.udemy.com/course/boas-praticas-em-automacao-de-testes-com-cypress/
@@ -7,16 +13,17 @@ Course certificate: WIP...
 
 ```diff
 + Prerequisites / Tech stack:
-* cypress ^9.5.1
-* Node.js 12 or 14 and above
-* faker ^6.6.6
-* The following web sites are used/accessed by the tests:
+ - cypress ^9.5.1
+ - Node.js 12 or 14 and above
+ - faker ^6.6.6
+ - The following web sites are used/accessed by the tests:
     - https://notes-serverless-app.com
     - https://hackernews-seven.vercel.app
 ```
 
-
-How do I run tests?
+```diff
++ How do I run tests?
+```
 Currently there are 2 commands that can be used for running tests:
 1) This command is used to open cypress locally: **npm run cy:open**
 2) This command is used to run cypress in headless mode: **npm test**
