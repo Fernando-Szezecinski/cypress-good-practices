@@ -1,39 +1,40 @@
-# Color Test Document
-
-<style>H1{color:Blue;}</style>
-<style>H2{color:DarkOrange;}</style>
-<style>p{color:Black;}</style>
-
 # cypress-good-practices
 This project contains a few examples which make use of known good practices for testing automation. 
-Additionaly, the content found here it's entirely based on course: https://www.udemy.com/course/boas-praticas-em-automacao-de-testes-com-cypress/
+Additionaly, the content found here it's entirely based on this [udemy course.](https://www.udemy.com/course/boas-praticas-em-automacao-de-testes-com-cypress)
 
-Course certificate: WIP...
+### Course certificate: WIP...
+
+___
 
 
 ```diff
 + Prerequisites / Tech stack:
+
  - cypress ^9.5.1
  - Node.js 12 or 14 and above
  - faker ^6.6.6
- - The following web sites are used/accessed by the tests:
+ - Both websites used by udemy course:
     - https://notes-serverless-app.com
     - https://hackernews-seven.vercel.app
 ```
 
+___
+
 ```diff
 + How do I run tests?
-```
+
 Currently there are 2 commands that can be used for running tests:
-1) This command is used to open cypress locally: **npm run cy:open**
-2) This command is used to run cypress in headless mode: **npm test**
 
+1) This command is used to open cypress locally: npm run cy:open
+2) This command is used to run cypress in headless mode: npm test
+```
 
----
+___
 
-Known bad practices and how to avoid them:
+```diff
++ Known bad practices and how to avoid them:
 
-1) Browser testing
+-1. Browser testing
 
 Are you testing the application behavior or the browser behavior?
 
@@ -45,17 +46,17 @@ of anchor tags with target="_blank" is to open a new tab. Therefore, those kind 
 [Good practice] By using Cypress, one possible way to avoid browser testing is by just checking if the property href of the anchor tag contains the expected address.
 
 Examples can be found on:
-1) https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample1.spec.js
+1) [browser-testing/sample1.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample1.spec.js)
 2) https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample2.spec.js
+```
 
-
----
+___
 
 ```diff
 + Additionally, this project also contains:
 
-* An example on how to make use of Cypress intercept method for mocking backend results
-This example can be found on: ...
+1. An example on how to make use of Cypress intercept method for mocking backend results. This example can be found on:
+ https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample2.spec.js
+ 
+ 
 ```
-
-
