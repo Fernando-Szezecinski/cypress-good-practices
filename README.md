@@ -42,7 +42,5 @@ Additionally, this project also contains:
 This example can be found on: ...
 
 ```diff
-- This is a red colored line
 + This is a green colored line
-@@ This is a purple colored line @@
 ```
