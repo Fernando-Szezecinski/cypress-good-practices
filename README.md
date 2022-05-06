@@ -7,10 +7,10 @@ Course certificate: WIP...
 
 ```diff
 + Prerequisites / Tech stack:
-- cypress ^9.5.1
-- Node.js 12 or 14 and above
-- faker ^6.6.6
-- The following web sites are used/accessed by the tests:
+* cypress ^9.5.1
+* Node.js 12 or 14 and above
+* faker ^6.6.6
+* The following web sites are used/accessed by the tests:
     - https://notes-serverless-app.com
     - https://hackernews-seven.vercel.app
 ```
@@ -31,7 +31,7 @@ Known bad practices and how to avoid them:
 Are you testing the application behavior or the browser behavior?
 
 [Bad practice] Browser testing is widley known as a test in which evaluates the browser's behavior instead of application's behavior. 
-For example, HTML anchor tags (<a>link</a>) have default behaviors regardless the browser they are loaded on. For instance, if an anchor tag is configured 
+For example, HTML anchor tags <a>link</a> have default behaviors regardless the browser they are loaded on. For instance, if an anchor tag is configured 
 with the attribute target="_blank", then we don't need to test if browser is going to open a new tab, because the default behavior 
 of anchor tags with target="_blank" is to open a new tab. Therefore, those kind of functionalities are tested ONLY by developers who develop browsers.
 
@@ -46,7 +46,9 @@ Examples can be found on:
 
 ```diff
 + Additionally, this project also contains:
-```
+
 * An example on how to make use of Cypress intercept method for mocking backend results
 This example can be found on: ...
+```
+
 
