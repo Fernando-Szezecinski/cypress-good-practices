@@ -1,0 +1,27 @@
+{
+  "name": "cypress-good-practices",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "good practices"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernando-Szezecinski/cypress-good-practices.git"
+  },
+  "author": "Fernando Szezecinski <szezecinski1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fernando-Szezecinski/cypress-good-practices/issues"
+  },
+  "homepage": "https://github.com/Fernando-Szezecinski/cypress-good-practices#readme",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "faker": "^6.6.6"
+  }
+}

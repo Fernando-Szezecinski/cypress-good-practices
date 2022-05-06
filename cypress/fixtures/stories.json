@@ -1,0 +1,19 @@
+{
+    "hits": [
+        {
+            "objectID": "0",
+            "title": "Agile testing",
+            "author": "Someone 1",
+            "url": "https://example.com/0",
+            "num_comments": 85,
+            "points": 1000
+        },{
+            "objectID": "1",
+            "title": "Clean code",
+            "author": "Someone 2",
+            "url": "https://example.com/1",
+            "num_comments": 98,
+            "points": 1953
+        }
+    ]
+}
