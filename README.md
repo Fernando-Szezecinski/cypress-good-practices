@@ -47,8 +47,8 @@ of anchor tags with target="_blank" is to open a new tab. Therefore, those kind 
 [Good practice] By using Cypress, one possible way to avoid browser testing is by just checking if the property href of the anchor tag contains the expected address.
 
 Examples can be found on:
-1) [browser-testing/sample1.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample1.spec.js)
-2) https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample2.spec.js
+1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample1.spec.js
+2) Sample2: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample2.spec.js
 
 
 -2. Code duplication
@@ -64,10 +64,10 @@ of Cypress beforeEach, Commands, Lodash and "Get all" approaches to avoid code d
 
 Examples can be found on:
 
-1) [duplication/sample1.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample1.spec.js)
-2) [duplication/sample2.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample2.spec.js)
-3) [duplication/sample3.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample3.spec.js)
-4) [duplication/sample4.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample4.spec.js)
+1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample1.spec.js
+2) Sample2: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample2.spec.js
+3) Sample3: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample3.spec.js
+4) Sample4: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample4.spec.js
 
 ```
 
