@@ -2,7 +2,7 @@
 
 /*
 
-//Code duplication manner (from line 09 until 20 it's the same code as from line 30 until 41):
+//With code duplication(from line 09 until 20 it's the same code as from line 30 until 41):
 
 describe('Code duplication bad practice - Sample 1', () => {
     it('Searches by typing and hitting enter', () => {
@@ -54,7 +54,7 @@ describe('Code duplication bad practice - Sample 1', () => {
 */
 
 
-//Non-Code duplication manner:
+//Without code duplication:
 
 describe('Code duplication bad practice - Sample 1', () => {
 

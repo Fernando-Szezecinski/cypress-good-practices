@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 /*
-//Code duplication manner: Both tests are exact the same, except for the searched term
+//With code duplication: Both tests are exact the same, except for the searched term
 
 describe('Code duplication bad practice - Sample 2', () => {
     beforeEach(() => {
@@ -34,7 +34,7 @@ describe('Code duplication bad practice - Sample 2', () => {
 */
 
 
-//Non-code duplication manner:
+//Without code duplication:
 
 describe('Code duplication bad practice - Sample 2', () => {
     beforeEach(() => {

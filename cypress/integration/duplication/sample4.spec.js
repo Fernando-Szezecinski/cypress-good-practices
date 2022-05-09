@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 /*
-//Without code duplication(lines 12,13 and 14):
+//With code duplication(lines 12,13 and 14):
 describe('code duplication bad practice - Sample 4', () => {
     beforeEach(() => {
         cy.visit('https://bit.ly/2XSuwCW')
