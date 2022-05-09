@@ -14,6 +14,13 @@
             "url": "https://example.com/1",
             "num_comments": 98,
             "points": 1953
+        },{
+            "objectID": "3",
+            "title": "frontend testing ............... .............................. ................................ 100",
+            "author": "Someone 2",
+            "url": "https://example.com/1",
+            "num_comments": 98,
+            "points": 1953
         }
     ]
 }

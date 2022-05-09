@@ -13,9 +13,10 @@ ___
  - cypress ^9.5.1
  - Node.js 12 or 14 and above
  - faker ^6.6.6
- - Both websites used by udemy course:
+ - Websites:
     - https://notes-serverless-app.com
     - https://hackernews-seven.vercel.app
+    - https://bit.ly/2XSuwCW
 ```
 
 ___
@@ -48,6 +49,26 @@ of anchor tags with target="_blank" is to open a new tab. Therefore, those kind 
 Examples can be found on:
 1) [browser-testing/sample1.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample1.spec.js)
 2) https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample2.spec.js
+
+
+-2. Code duplication
+
+Do you remember of all the places where you've added the same code?
+
+[Bad practice] As the name suggests this bad practices implies of replicating the exact same code in multiple places. Spreading the same code in multiple places
+is a bad huge disavantage for the developers who maintain a code solution. Despite being an error-prone approach, it doesn't allow programmers to refactor their code in an 
+elegant fashion and will for sure require more time than you have to refactor your tests as nobody is able to remember all the places where a specific code lives.
+
+[Good practice] This project contains 4 examples on how to avoid code duplication. They respectively suggest you to make use 
+of Cypress beforeEach, Commands, Lodash and "Get all" approaches to avoid code duplication.
+
+Examples can be found on:
+
+1) [duplication/sample1.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample1.spec.js)
+2) [duplication/sample2.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample2.spec.js)
+3) [duplication/sample3.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample3.spec.js)
+4) [duplication/sample4.spec.js](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample4.spec.js)
+
 ```
 
 ___
