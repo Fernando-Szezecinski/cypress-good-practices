@@ -69,6 +69,22 @@ Examples can be found on:
 3) Sample3: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample3.spec.js
 4) Sample4: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/duplication/sample4.spec.js
 
+
+-3. Flaky test
+
+Does your test work randomly?
+
+[Bad practice] Flaky tests can be caused due to different aspects such as an unstable application or even a bad automation design. 
+As flaky tests tend to behave differently in each execution, we tend to not pay attention to their result as most of the time the result is just a false negative result.
+On the other hand, by assuming this approach we are most likely to not detect real defects.
+
+[Good practice] Tests must provide deterministic outcomes, not random results. An alternative to deal with this behavior is to make Cypress to wait for a HTTP request result instead of an 'intermediate state', for example an element to be displayed.
+
+Examples can be found on:
+
+1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/flaky-test/sample1.spec.js
+
+
 ```
 
 ___
