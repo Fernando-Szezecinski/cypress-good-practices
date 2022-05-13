@@ -136,6 +136,19 @@ This project contains only one example that uses Cypress commands instead of Pag
 Examples can be found on:
 
 1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/page-object/sample1.spec.js
+
+
+-7. Sensitive data
+
+[Bad practice] wip
+
+[Good practice] wip
+
+Examples can be found on:
+
+1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/sensitive-data/sample1.spec.js
+
+
 ```
 
 ___
