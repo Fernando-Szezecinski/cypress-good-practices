@@ -116,6 +116,26 @@ Examples can be found on:
 
 1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/unnecessary-complexity/sample1.spec.js
 
+
+-5. Page Objects
+
+[Bad practice] Page Objects
+
+Source: https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions
+
+"
+- Page objects are hard to maintain and take away time from actual application development. I have never seen PageObjects documented well enough to actually help one write tests.
+- Page objects introduce additional state into the tests, which is separate from the application’s internal state. This makes understanding the tests and failures harder.
+- Page objects try to fit multiple cases into a uniform interface, falling back to conditional logic - a huge anti-pattern in our opinion.
+- Page objects make tests slow because they force the tests to always go through the application user interface.
+"
+
+[Good practice] In the article writen by cypress team they provide many examples and explanations on how to avoid Page Objects and how to do it.
+This project contains only one example that uses Cypress commands instead of Page objects.
+
+Examples can be found on:
+
+1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/page-object/sample1.spec.js
 ```
 
 ___
