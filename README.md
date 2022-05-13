@@ -101,6 +101,21 @@ Examples can be found on:
 2) Sample2: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/hardcoded-assertion/sample2.spec.js
 
 
+-5. Unnecessary complexity
+
+Do I need to reinvent the wheel for each page element?
+
+[Bad practice] Unnecessary code complexity can come due to uncountable reasons. 
+However, the most common reasons for it a short job experience as an automation engineer, applications with complex logic to learn 
+and finally, when we don't know it very well the library we chose to use it.
+
+[Good practice] The examples contained in this project show us how to use Cypress native functions to 
+deal with browser operations instead of programmatically creating a logic to handle them.
+
+Examples can be found on:
+
+1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/unnecessary-complexity/sample1.spec.js
+
 ```
 
 ___
