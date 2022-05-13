@@ -17,8 +17,15 @@
         },{
             "objectID": "3",
             "title": "frontend testing ............... .............................. ................................ 100",
-            "author": "Someone 2",
-            "url": "https://example.com/1",
+            "author": "Someone 3",
+            "url": "https://example.com/3",
+            "num_comments": 98,
+            "points": 1953
+        },{
+            "objectID": "4",
+            "title": "Software craftsmanship",
+            "author": "Someone 4",
+            "url": "https://example.com/4",
             "num_comments": 98,
             "points": 1953
         }
