@@ -117,7 +117,7 @@ Examples can be found on:
 1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/unnecessary-complexity/sample1.spec.js
 
 
--5. Page Objects
+-6. Page Objects
 
 [Bad practice] Page Objects
 
