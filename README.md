@@ -2,7 +2,7 @@
 This project contains a few examples which make use of known good practices for testing automation. 
 Additionaly, the content found here it's entirely based on this [udemy course.](https://www.udemy.com/course/boas-praticas-em-automacao-de-testes-com-cypress)
 
-### Course certificate: [certificate course.](https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/certificate.pdf)
+### Course certificate: [certificate course.](./certificate.pdf)
 
 ___
 
