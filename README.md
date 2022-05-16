@@ -174,15 +174,18 @@ Examples can be found on:
 
 1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/unnecessary-waiting/sample1.spec.js
 
-```
 
-___
+-10. Wrong abstractions
 
-```diff
-+ Additionally, this project also contains:
+[Bad practice] Wrong abstractions can cause tests to not have clear results, as well as impact their readbility and maintainability. 
 
-1. An example on how to make use of Cypress intercept method for mocking backend results. This example can be found on:
- https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/browser-testing/sample2.spec.js
- 
- 
+[Good practice] This project contains two examples of how to deal if wrong abstractions and improve code readbility, 
+even by duplicating a few lines of code.
+
+Examples can be found on:
+
+1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/wrong-abstractions/sample1.spec.js
+2) Sample2: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/wrong-abstractions/sample2.spec.js
+
+
 ```
