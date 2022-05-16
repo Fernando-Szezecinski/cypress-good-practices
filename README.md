@@ -140,9 +140,10 @@ Examples can be found on:
 
 -7. Sensitive data
 
-[Bad practice] wip
+[Bad practice] This bad practice can lead to sensitive data exposure which can be financially costly to your business and damage your company's
+reputation.
 
-[Good practice] wip
+[Good practice] This project contains an example of how to use Cypress environment variables to deal with such bad practices.
 
 Examples can be found on:
 
