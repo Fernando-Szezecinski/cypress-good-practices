@@ -150,6 +150,17 @@ Examples can be found on:
 1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/sensitive-data/sample1.spec.js
 
 
+-8. Slow tests
+
+[Bad practice] E2E tests are known to be slow when compared with other types of tests such as API tests or even unit tests.
+
+[Good practice] This project contains an example of how Cypress mocks E2E test dependencies by making use of Cypress fixtures.
+
+Examples can be found on:
+
+1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/slow-test/sample1.spec.js
+2) Sample2: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/slow-test/sample2.spec.js
+
 ```
 
 ___
