@@ -161,6 +161,19 @@ Examples can be found on:
 1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/slow-test/sample1.spec.js
 2) Sample2: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/slow-test/sample2.spec.js
 
+
+-9. Unnecessary waits
+
+[Bad practice] It's a common and wrong practice to use hardcoded 'wait' values in test scripts. They can cause tests to be flaky and
+end up in a test that runs much more slower than it should.
+
+[Good practice] Cypress by default already waits 4 seconds for elements to be present. However, another alternative to 
+avoid using hardcoded wait values is to overwrite Cypress default timeout by informing a new value to it.
+
+Examples can be found on:
+
+1) Sample1: https://github.com/Fernando-Szezecinski/cypress-good-practices/blob/main/cypress/integration/unnecessary-waiting/sample1.spec.js
+
 ```
 
 ___
